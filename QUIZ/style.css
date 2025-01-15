@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background: linear-gradient(90deg, rgb(62, 0, 133) 0%, rgb(84, 39, 206) 100%);
+}
+
+body h2 {
+  color: white;
+  min-height: 200px;
+  font-size: 80px;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 30vh;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  min-height: 600px;
+}
+
+.spnQtd {
+  text-align: end;
+  min-height: 30px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 20px;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #008CCC;
+  color: white;
+  min-height: 30px;
+}
+
+.finish {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  text-align:center
+}
+
+.finish button {
+  text-align: center;
+  min-height: 50px;
+}
